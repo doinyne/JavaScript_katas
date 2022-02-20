@@ -1,9 +1,15 @@
 var countSheep = function (num){
-  for(let i = 1; i < num; i++) {
-    console.log(i + " sheep");
-  }
+  for(let i = 0; i < num; i++) {
+    console.log(i + " sheep...");
+  };
 };
-console.log(countSheep(10));
+var newStr = function(num){
+  for(let i = 0; i === num; i++) {
+    console.log('');
+  };
+};
+console.log(countSheep(10))
+console.log(newStr(0))
 
 // num = 2 output 1 sheep, 2 sheep
 // num = 5 output 1 sheep, 2 sheep, 3 sheep, 4 sheep, 5 sheep
