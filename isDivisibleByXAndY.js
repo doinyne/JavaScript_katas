@@ -1,6 +1,6 @@
-function isDivisible(n, x, y) {
-
+function isDivisible(n, x) {
+  if(n / x === 0) {
+    return "true";
+  }
 };
-console.log(isDivisible(2, 3, 3));
-
-//  && n % y === 0
+console.log(isDivisible(2,2))
