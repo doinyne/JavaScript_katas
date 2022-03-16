@@ -67,6 +67,14 @@ const total = items.reduce((currentTotal, item) => {
 
 console.log(total);
 
+// includes
+
+const numbers = [1, 2, 3, 4]
+
+const includesTwo = numbers.includes(2);
+
+console.log(includesTwo)
+
 
 
 
