@@ -35,7 +35,13 @@ const itemPrice = items.map((item) => {
 
 console.log(itemPrice);
 
-// 
+// find Method
+
+const foundItem = items.find((item) => {
+  return item.name === 'Book'
+})
+
+console.log(foundItem);
 
 
 
