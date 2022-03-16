@@ -43,6 +43,20 @@ const foundItem = items.find((item) => {
 
 console.log(foundItem);
 
+// for each method
+
+items.forEach((item) => {
+  console.log(item.price)
+});
+
+// some function. checks if anything in the array returns true for the function
+
+const inexpensiveItems = items.some((item) => {
+  return item.price <= 100;
+})
+
+console.log(inexpensiveItems);
+
 
 
 
