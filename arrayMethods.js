@@ -50,12 +50,22 @@ items.forEach((item) => {
 });
 
 // some function. checks if anything in the array returns true for the function
-
+// .every checks each and every item to see if it is below 100
+// .every would return false because there are items above 100
 const inexpensiveItems = items.some((item) => {
   return item.price <= 100;
 })
 
 console.log(inexpensiveItems);
+
+// reduce. reduce takes an item and a property (new array)
+// reduce also takes a starting point. normally 0
+
+const total = items.reduce((currentTotal, item) => {
+  return item.price + currentTotal;
+}, 0);
+
+console.log(total);
 
 
 
