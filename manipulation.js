@@ -3,6 +3,7 @@
 var stringOne = "Arsenal are the best team in the league"
 var stringTwo = " and Manchester are their biggest rivals"
 const myPets = ['dog', 'cat', 'fish'];
+const values = [1, 2, [7], 3, [1, 2], 4 ]
 
 // charAt()
 console.log(stringOne.charAt(5));
@@ -72,6 +73,8 @@ console.log(stringThree.trim());
 // join()
 console.log(myPets.join(' and '));
 
+// flat 
+console.log(values.flat());
 
 
 
