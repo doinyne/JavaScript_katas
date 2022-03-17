@@ -4,7 +4,7 @@ var stringOne = "Arsenal are the best team in the league"
 var stringTwo = " and Manchester are their biggest rivals"
 const myPets = ['dog', 'cat', 'fish'];
 const values = [1, 2, [7], 3, [1, 2], 4 ]
-const value = [ 1, 2, 3, 4, 5]
+const value = [ 1, 3, 5, 4, 2]
 
 // charAt()
 console.log(stringOne.charAt(5));
@@ -83,7 +83,7 @@ console.log(value.every(val => val > 8));
 
 // sort() sorts an array
 
-
-
+console.log(value.sort((a, b) => a - b));
+console.log(myPets.sort());
 
 
