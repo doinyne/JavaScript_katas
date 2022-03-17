@@ -4,6 +4,7 @@ var stringOne = "Arsenal are the best team in the league"
 var stringTwo = " and Manchester are their biggest rivals"
 const myPets = ['dog', 'cat', 'fish'];
 const values = [1, 2, [7], 3, [1, 2], 4 ]
+const value = [ 1, 2, 3, 4, 5]
 
 // charAt()
 console.log(stringOne.charAt(5));
@@ -30,24 +31,24 @@ console.log(stringOne.indexOf("in"));
 console.log(stringOne.lastIndexOf("t"));
 
 // match()
-console.log(stringOne.match(/the/g)); // pull out 'the' from the string and places them into an array
+console.log(stringOne.match(/the/g)); // pull out 'the' from the string and places them into a new array
 
 // repeat()
 console.log(stringOne.repeat(4));
 
-// replace()
+// replace() regex 
 console.log(stringOne.replace(/the/g, "THE"));
 
-// search()
+// search() returns index of arguement if true
 console.log(stringOne.search("the"));
 
 // slice()
 console.log(stringOne.slice(2, 4));
 
-// split()
+// split() splits string by arguement
 console.log(stringOne.split(" "));
 
-// startsWith()
+// startsWith() returns true or false
 console.log(stringOne.startsWith("Arsenal"));
 
 // table()
@@ -66,15 +67,23 @@ console.log(stringOne.toLowerCase());
 // toUpperCase()
 console.log(stringOne.toUpperCase());
 
-// trim()
+// trim() removes empty space around string
 var stringThree = "     hello!     ";
 console.log(stringThree.trim());
 
-// join()
+// join() create a string from array items 
 console.log(myPets.join(' and '));
 
-// flat 
+// flat() 
 console.log(values.flat());
+
+// every() checks if every item meets a condition
+
+console.log(value.every(val => val > 8));
+
+// sort() sorts an array
+
+
 
 
 
