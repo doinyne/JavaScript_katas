@@ -2,6 +2,7 @@
 
 var stringOne = "Arsenal are the best team in the league"
 var stringTwo = " and Manchester are their biggest rivals"
+const myPets = ['dog', 'cat', 'fish'];
 
 // charAt()
 console.log(stringOne.charAt(5));
@@ -30,7 +31,7 @@ console.log(stringOne.lastIndexOf("t"));
 // match()
 console.log(stringOne.match(/the/g)); // pull out 'the' from the string and places them into an array
 
-//  repeat()
+// repeat()
 console.log(stringOne.repeat(4));
 
 // replace()
@@ -67,3 +68,10 @@ console.log(stringOne.toUpperCase());
 // trim()
 var stringThree = "     hello!     ";
 console.log(stringThree.trim());
+
+// join()
+console.log(myPets.join(' and '));
+
+
+
+
