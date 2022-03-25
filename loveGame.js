@@ -1,25 +1,17 @@
 function howMuchILoveYou(nbPetals) {
-   switch (nbPetals) {
-    case 1:
-      console.log('I love you')
-      break;
-    case 2:
-      console.log('a little')
-      break;
-    case 3:
-      console.log('a lot')
-      break;
-    case 4:
-      console.log('passionately')
-      break;
-    case 5:
-      console.log('madly')
-      break;
-    case 6:
-      console.log('not at all')
-      break;
-    default:
-      console.log('sorry')
-   }
+  switch ((nbPetals - 1) % 6) {
+      case 1:
+          return "a little";
+      case 2:
+          return "a lot";
+      case 3:
+          return "passionately";
+      case 4:
+          return "madly";
+      case 5:
+          return "not at all";
+      default:
+          return "I love you";
+  }
 }
 console.log(howMuchILoveYou(1))
