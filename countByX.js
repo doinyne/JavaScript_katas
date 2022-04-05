@@ -7,4 +7,5 @@ function countBy(x, n) {
   return z;
 };
 
-console.log(countBy(5, 100));
+module.exports = countBy 
+console.log(countBy(2, 10));

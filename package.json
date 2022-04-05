@@ -1,5 +1,23 @@
 {
   "scripts": {
     "test": "jest"
+  },
+  "name": "javascript_katas",
+  "description": "***Dean's JS katas**",
+  "version": "1.0.0",
+  "main": "arrayMethods.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doinyne/JavaScript_katas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/doinyne/JavaScript_katas/issues"
+  },
+  "homepage": "https://github.com/doinyne/JavaScript_katas#readme",
+  "devDependencies": {
+    "jest": "^27.5.1"
   }
 }
