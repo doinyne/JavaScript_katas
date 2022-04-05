@@ -8,4 +8,4 @@ function countBy(x, n) {
 };
 
 module.exports = countBy 
-console.log(countBy(2, 10));
+console.log(countBy(1, 2));

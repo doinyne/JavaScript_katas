@@ -8,15 +8,12 @@ function solution(A) {
   for(let i=min; i<= max; i++) {
     if(!A.includes(i)) { // Checking whether i(current value) present in num(argument)
       missing.push(i); // Adding numbers which are not in num(argument) array
-    } else if(missing) {
-      return max + 1;
-    } else if(missing) {
-      return min - 1;
+    // } else if(missing) {
+    //   return max + 1;
+    // } else if(missing) {
+    //   return min - 1;
     }
-  }
   return missing;
+  }
 }
-
-console.log(solution([−1, −3]));
-
-
+console.log(solution([1,2,3,5,6,]));
