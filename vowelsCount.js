@@ -15,6 +15,9 @@ function getCount(str) {
         case 'i':
           vowelsCount++;
           break;
+        case 'o':
+          vowelsCount++;
+          break;
         case 'e':
           vowelsCount++;
           break;
