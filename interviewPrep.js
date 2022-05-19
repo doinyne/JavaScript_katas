@@ -21,3 +21,12 @@ function sumUpOneLiner(n) {
 }
 
 console.log(sumUpOneLiner(10));
+
+//big O
+
+//linked list
+//array
+//hash tables
+//stacks and queues   
+// graphs and trees
+
