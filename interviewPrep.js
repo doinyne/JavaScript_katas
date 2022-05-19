@@ -13,3 +13,11 @@ function sumUp(n) {
 }
 
 console.log(sumUp(10))
+
+// one liner
+
+function sumUpOneLiner(n) {
+  return (n/2) * (1 + n);
+}
+
+console.log(sumUpOneLiner(10));
