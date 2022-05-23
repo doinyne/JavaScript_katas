@@ -28,5 +28,5 @@ console.log(sumUpOneLiner(10));
 //array
 //hash tables
 //stacks and queues   
-// graphs and trees
+//graphs and trees
 
