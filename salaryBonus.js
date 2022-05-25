@@ -7,3 +7,7 @@ function bonusTime(salary, bonus) {
 }
 
 console.log(bonusTime(2, true))
+
+function bonusTime(salary, bonus) {
+  return bonus ? `£${10 * salary}` : `£${salary}`;
+}
