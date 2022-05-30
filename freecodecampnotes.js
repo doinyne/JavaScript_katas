@@ -33,4 +33,3 @@ const wordBlanks = "The " + myAdjective + " hairy " + myNoun + " Steve, " + myVe
 
 console.log(wordBlanks);
 */
-//
