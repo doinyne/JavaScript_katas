@@ -25,8 +25,7 @@ function padIt(str,n){
   while ( n <= str.length ) {
     let first = str.charAt(0)
     let last = str.charAt(str.length -1)
-    str = str += "*"
-    str = str += "*"
+    
   }
   return str
 }
