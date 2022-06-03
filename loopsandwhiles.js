@@ -31,7 +31,7 @@ function padIt(str,n){
   return str;
 }
 
-console.log(padIt("hello", 5))
+console.log(padIt("hello", 2))
 
 // to add * to the start of a string use index[0]
 // to add * to the end of a string use .length
