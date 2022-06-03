@@ -9,3 +9,12 @@ function sum1_100(){
   }
   return sum;         //return the final cumulative value
 }
+
+function sum1_100(){
+  var sum=0,num=1;
+  do{
+    sum+=num;
+    num++;
+  }while (num<=100)
+  return sum;
+}
