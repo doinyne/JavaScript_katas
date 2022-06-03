@@ -20,13 +20,18 @@
 // }
 
 function padIt(str,n){
-  do{
-  str += "*"
-} while (n < str.length)
-return str
+
+  
+  while ( n <= str.length ) {
+    let first = str.charAt(0)
+    let last = str.charAt(str.length -1)
+    str = str += "*"
+    str = str += "*"
+  }
+  return str
 }
 
-console.log(padIt("hello", 2))
+console.log(padIt("hello", 4))
 
 // to add * to the start of a string use index[0]
 // to add * to the end of a string use .length
