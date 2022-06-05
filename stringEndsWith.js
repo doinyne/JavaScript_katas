@@ -8,3 +8,9 @@ function solution(str, ending){
 }
 
 console.log(solution("Dean", "an"))
+
+//shortest
+
+function solution(str, ending){
+  return str.endsWith(ending);
+}
