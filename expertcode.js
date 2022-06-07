@@ -37,3 +37,8 @@ console.log(isDarkMode) // Result: True or False
 const elementIsInFocus = (el) => (el === document.activeElement);
 elementIsInFocus(anyElement) // Result: If it is in focus, it will return True, otherwise it will return False
 
+//Verify that the current user is able to handle touch events.
+const touchSupported = () => {
+  (‘ontouchstart’ in window || window.DocumentTouch && document instanceof window.DocumentTouch);
+}
+console.log(touchSupported()); // Result: If touch event is supported, it will return True, otherwise it will return False
