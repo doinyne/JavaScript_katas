@@ -8,4 +8,4 @@ function strCount(str, letter){
   return count;
 }
 
-console.log(strCount(('Hello', 'o'), 1)))
+console.log(strCount('Hello', 'o'));
