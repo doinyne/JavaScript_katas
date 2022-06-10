@@ -17,3 +17,7 @@ console.log(friend(["Ryan", "Mark", "Kieran"]))
 
 
 // youtube walk through 
+
+function friend(friends){
+  return friends.filter(n => n.length === 4)
+}
