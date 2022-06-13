@@ -1,10 +1,9 @@
 function sum() {
-  let arr = sum.toString();
-  console.log(arr);
+  let total = 0;
 
-  const total = arr.reduce((accumulator, currentValue) => {
-    accumulator + currentValue;
-  }, 0)
+  for (let i = 0; i < arguments.length; i++) {
+     total += arguments[i];
+  }
   return total
 }
 
