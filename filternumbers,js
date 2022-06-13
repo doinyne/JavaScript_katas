@@ -1,5 +1,9 @@
 var FilterString = function(value) {
-    return value.replace(/[^0-9]/g,'');
+  let arr = value.replace(/[^0-9]/g, "");
+
+  return Number(arr);
+  // returns just the number
+
 }
 
 console.log("123")
