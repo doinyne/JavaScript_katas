@@ -1,7 +1,5 @@
 function typeValidation(variable, type) {
-  if ( typeof(variable) == 'number' ) {
-    return true
-  } else return false
+   return typeof variable == type 
 }
 
-console.log(typeValidation("hello", "number"))
+console.log(typeValidation(42, "number"))
