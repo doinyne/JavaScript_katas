@@ -1,12 +1,9 @@
 function spongeMeme(sentence) {
-  let str = sentence.toLowerCase().split('');
-  
-  
-  for (let i = 0; i < str.length; i++) {
-    if( str[i] === str[i].toLowerCase ()) {
-      console.log(str[i].toUpperCase() + str[i]); 
-    }
+  var res = "";
+  for (i=0; i < sentence.length; i++) {
+     res += i % 2 == 0 ? sentence.charAt(i).toUpperCase() : sentence.charAt(i);
   }
+  return res;
 }
 
 console.log(spongeMeme("stop Making spongebob Memes!"))
