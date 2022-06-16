@@ -1,6 +1,14 @@
 function alternate(n, firstValue, secondValue){
-  let arr = [firstValue, secondValue];
-  let foo = arr.length * n
-  console.log(arr(foo)) 
+  let result = []
+
+  for (let i = 0; i <n; i++){
+    if(!(i % 2)) {
+      result.push(firstValue);
+    } else {
+      result.push(secondValue);
+    }
+  }
+  return result
+    
 }
 console.log(alternate(5, "true", "false"))
