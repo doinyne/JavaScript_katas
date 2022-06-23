@@ -11,3 +11,5 @@ function oddCount(n){
 
 console.log(oddCount(40));
 
+
+const oddCount = n => Math.floor(n/2) ;
