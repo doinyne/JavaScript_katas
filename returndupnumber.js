@@ -1,14 +1,15 @@
 function findDup(arr) {
-  let dup = []
+  const dup = []
   let foo = arr.sort()
+  console.log(foo)
   for(let i = 0; i <= foo.length; i++) {
-    if(i === foo[i]) {
-      dup.push(i)
+    if(foo[i] === foo[i + 1]) {
+      dup.push(foo[i]);
     } else {
       i++;
     }
   }
-  return dup
+  return Number(dup);
 }
 
-console.log(findDup([1,3,2,5,4,5,7,6]))
+console.log(findDup([1,2,2,3,4,5,6,7]))
