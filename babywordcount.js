@@ -13,17 +13,7 @@ function babyCount(x) {
     } else {
       i++;
     }
-  }
-
-  let word = count.join("")
-  for(let i = 0; i < count.length; i++) {
-    if(word.includes(baby)) {
-      total += 1 / baby.length
-    } else {
-      i++;
-    }
-  }
-  
+  }  
   return total
 }
 
