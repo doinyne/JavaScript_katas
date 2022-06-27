@@ -1,7 +1,7 @@
 function babyCount(x) {
   let count = [];
   let baby = "baby"
-  
+  let total = 0;
 
   for(let i = 0; i < x.length; i++) {
     if(x[i] === "b") {
@@ -14,15 +14,18 @@ function babyCount(x) {
       i++;
     }
   }
-  console.log(count.join(""))
-  let total = 0;
+
+  let word = count.join("")
   for(let i = 0; i < count.length; i++) {
-    if(count.includes(baby) === true) {
-      total += 1;
+    if(word.includes(baby)) {
+      total += 1 / baby.length
+    } else {
+      i++;
     }
   }
-  return total;
+  
+  return total
 }
 
-console.log(babyCount('babyhellohellobabybaby'))
+console.log(babyCount('Happy babies boom ba by?'))
 
