@@ -13,7 +13,15 @@ function babyCount(x) {
     } else {
       i++;
     }
-  }  
+  }
+
+  console.log(count)
+  
+  
+  
+  
+  
+  
   return total
 }
 
