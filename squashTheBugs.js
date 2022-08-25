@@ -7,6 +7,7 @@ function findLongest(str) {
     if (spl(i).length > longest) {
       longest = spl[i].length
     }
+    
   };
   return i;
 };
