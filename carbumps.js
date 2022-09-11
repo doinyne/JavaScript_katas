@@ -1,19 +1,22 @@
 function bump(x){
-
-  let roadBumps = 0;
-  let roadArray = x.split("");
-
-  for(let i = 0; i < roadArray.length; i++) {
-    console.log(roadArray);
-    if(roadArray[i] === "n"){
-      roadBumps += 1
-      i++
-    } else if(roadArray[i] === "_") {
-      i++
-    }
-
-    return roadBumps;
-  }
+  // let roadBumps = 0;
+  // let array = x.split("");
+  // console.log(array.length)
+  // for(let i = 0; i < array.length; i++) {
+  //   if(array[i] === "n"){
+  //     roadBumps += 1
+  //   } else if(array[i] === "_") {
+  //     i++;
+  //   }
+  // }
+  // return roadBumps
+  
+  // if(roadBumps < 15) {
+  //   return "Woohoo!"
+  // } else {
+  //   return "Car Dead"
+  // }
 }
 
-console.log(bump("n__nn_nnnn__n_n___n____nn__nnn"))
+console.log(bump("_n__nnn_nnnnnn___nn___n_nn_nn"))
+// ! 17
